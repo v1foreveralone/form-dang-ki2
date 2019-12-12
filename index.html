@@ -6,20 +6,21 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+	<script type="text/javascript" src="js/js.js"></script>
 	<h2>ĐĂNG KÍ HỌC TRỰC TUYẾN</h2><br><br><br>
 	<table >
 		<tr>
 			<td>Họ tên</td>
 			<td><input type="text" id="name">
-			<a id="1"></a></td>
+			<a id="1"></a><th id="11"></th></td>
 		</tr>
 		<tr>
 			<td>Tên đăng nhập</td>
-			<td><input type="text" id="user"><a id="2"></a></td>
+			<td><input type="text" id="username"><a id="2"><th id="22"></th></a></td>
 		</tr>
 		<tr>
 			<td>Điện thoại</td>
-			<td><input type="text" id="phone"><a id="3"></a></td>
+			<td><input type="text" id="phone"><a id="3"></a><th id="3"></th></td>
 		</tr>
 		<tr>
 			<td>Email</td>
@@ -55,13 +56,13 @@
 		</tr>
 		<tr>
 			<td>Ghi chú</td>
-			<td colspan="2" height="100px">
-				<input type="text">
+			<td colspan="2">
+				<input type="text" style="height: 80px">
 			</td>
 		</tr>
 		<tr>
 			<td>Mã xác nhận</td>
-			<td><input type="text"><img height="10px" src="img/1.jpg"><a>Chọn mã khác</a></td>
+			<td><input type="text"><img height="20px" src="img/1.jpg"><span>Chọn mã khác</span></td>
 		</tr>
 		<tr>
 			<td align="center" colspan="3"><input type="button" value="Đăng ký" onclick="kiemtra()"></td>

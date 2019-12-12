@@ -15,3 +15,9 @@ select{
 	-webkit-border-radius: 5px 5px 5px 5px;
 	border-radius: 5px 5px 5px 5px;
 }
+a{
+	color: red;
+}
+th{
+	color: green;
+}
