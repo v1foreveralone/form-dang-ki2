@@ -7,34 +7,31 @@
 </head>
 <body>
 	<h2>ĐĂNG KÍ HỌC TRỰC TUYẾN</h2><br><br><br>
-	<table border="1">
+	<table >
 		<tr>
 			<td>Họ tên</td>
-			<td><input type="text" id="name"></td>
-			<td></td>
+			<td><input type="text" id="name">
+			<a id="1"></a></td>
 		</tr>
 		<tr>
 			<td>Tên đăng nhập</td>
-			<td><input type="text" id="user"></td>
-			<td></td>
+			<td><input type="text" id="user"><a id="2"></a></td>
 		</tr>
 		<tr>
 			<td>Điện thoại</td>
-			<td><input type="text" id="phone"></td>
-			<td></td>
+			<td><input type="text" id="phone"><a id="3"></a></td>
 		</tr>
 		<tr>
 			<td>Email</td>
-			<td><input type="text" id="email"></td>
-			<td></td>
+			<td><input type="text" id="email"><a id="4"></a></td>
 		</tr>
 		<tr>
 			<td>Giới tính</td>
 			<td id="gioitinh">
-				<input type="checkbox" value="nam"><a>nam</a>
-				<input type="checkbox" value="nữ"><a>nữ</a>
+				<input type="radio" name="gtinh" value="nam"><span>nam</span>
+				<input type="radio" name="gtinh" value="nữ"><span>nữ</span>
+				<a id="5"></a>
 			</td>
-			<td></td>
 		</tr>
 		<tr>
 			<td>Khóa học đăng ký</td>
@@ -50,17 +47,24 @@
 		<tr>
 			<td>Khóa học đã tham gia</td>
 			<td id="dathamgia">
-				<input type="checkbox" value="ltphp"><a>Lập trình PHP</a>
-				<input type="checkbox" value="ltphp"><a>Thiết kế đồ họa</a>
-				<input type="checkbox" value="ltphp"><a>Kỹ thuật làm phim</a>
-				<input type="checkbox" value="ltphp"><a>Lập trình Android</a>
+				<input type="checkbox" value="ltphp"><span>Lập trình PHP</span>
+				<input type="checkbox" value="ltphp"><span>Thiết kế đồ họa</span>
+				<input type="checkbox" value="ltphp"><span>Kỹ thuật làm phim</span>
+				<input type="checkbox" value="ltphp"><span>Lập trình Android</span>
 			</td>
 		</tr>
 		<tr>
 			<td>Ghi chú</td>
-			<td height="100px">
+			<td colspan="2" height="100px">
 				<input type="text">
 			</td>
+		</tr>
+		<tr>
+			<td>Mã xác nhận</td>
+			<td><input type="text"><img height="10px" src="img/1.jpg"><a>Chọn mã khác</a></td>
+		</tr>
+		<tr>
+			<td align="center" colspan="3"><input type="button" value="Đăng ký" onclick="kiemtra()"></td>
 		</tr>
 	</table>
 </body>

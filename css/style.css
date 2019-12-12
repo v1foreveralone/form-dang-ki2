@@ -1,0 +1,17 @@
+input[type=text]{
+	background-color:#f0f1e0; 
+	min-height:15px; 
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+}
+input[type=button]{
+	background-color: green;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+
+}
+select{
+	background-color:#f0f1e0;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+}
